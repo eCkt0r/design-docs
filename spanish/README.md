@@ -23,17 +23,12 @@ Ultima actualización: YYYY-MM-DD
 - Métricas
 
 ## Links
-- [Un link](#)
-- [Otro link](#)
+- https://github.com/pakoy3k/learnPython
 
 ## Objetivo
-_Que y porque estamos haciendo esto?_
+_Se tiene la necesidad de verificar datos de clientes de una manera rápida y eficiente para ahorrar tiempo
 
-_Incluye contexto para las personas que no están familiarizadas con el proyecto._
-
-_Mantenlo corto, elabora en **Background, Overview y Detailed Design**_
-
-_Añade screenshots / mocks si lo ves necesario_
+_Se introduce el nombre del cliente y regresa como esta su estado en la emprsa
 
 ## Goals
 - Goals
@@ -41,11 +36,15 @@ _Añade screenshots / mocks si lo ves necesario_
 - Non-Goals
 
 ## Background
-_Cuál es el contexto de este proyecto?_
+_Este Bot esta diseñado para tomar un nombre de un cliente de la empresa y regresa unos datos iniciales, estos clientes contratan a RFA corporation para la cancelación de su tiempo compartido en los EE. UU., los datos que regresa son(la empresa se encuentra en EE. UU. por lo tanto se maneja todo en ingles): 
+-Timehsare 
+-Account/Contract Number 
+-Case Manager
 
-_Incluye recursos, como otros design docs si es necesario_
-
-_No escribas acerca de tu diseño o requerimientos aquí_
+A continuación se despliegan uno botones con sub botones: 
+-RFA Documents => Questionnaire (Yes / No), SDD (Yes / No), TPA (Yes / No), SPOA (Yes / No) 
+-TS Document => MF (Yes / No), Contract (Yes / No) 
+-LOR => Sent (Yes / No), Yes => Requested by, Date, Tracking Number
 
 ## Overview
 _Overview a alto nivel de tu propuesta_
